@@ -76,7 +76,10 @@ plugins:
 
 # Collections
 collections:
-  recipes:
+  projects:
+    output: true
+    permalink: /:collection/:path/
+  blog:
     output: true
     permalink: /:collection/:path/
 
