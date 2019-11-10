@@ -7,7 +7,7 @@ modified: 2016-11-29T17:44:36-05:00
 categories: projects
 tags: []
 image:
-  feature: color-palette.jpg
+  feature: images/color-palette.jpg
   credit: Color Theory 101
   creditlink: http://blog.hubspot.com/marketing/color-theory-design
   path: http://www.scottbouloutian.com/images/color-palette.jpg

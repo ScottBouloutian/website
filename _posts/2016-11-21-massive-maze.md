@@ -7,7 +7,7 @@ modified: 2016-11-21T08:34:46-05:00
 categories: projects
 tags: []
 image:
-  feature: maze-header-image.jpg
+  feature: images/maze-header-image.jpg
   credit: Leah4Evah
   creditlink: https://suwalls.com/nature/hedge-maze-30469
   path: http://www.scottbouloutian.com/images/maze-header-image.jpg

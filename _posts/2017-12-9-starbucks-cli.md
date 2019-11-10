@@ -7,7 +7,7 @@ modified: 2017-12-10T1:48:00-05:00
 categories: projects
 tags: []
 image:
-  feature: coffee-terminal.jpg
+  feature: images/coffee-terminal.jpg
 comments: true
 share: true
 ---
