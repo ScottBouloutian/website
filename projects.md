@@ -1,5 +1,5 @@
 ---
-layout: collection
 title: Projects
-collection: projects
+layout: category
+taxonomy: projects
 ---

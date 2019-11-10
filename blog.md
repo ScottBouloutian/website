@@ -1,5 +1,5 @@
 ---
-layout: collection
 title: Blog
-collection: blog
+layout: category
+taxonomy: blog
 ---
