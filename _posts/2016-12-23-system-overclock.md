@@ -6,7 +6,7 @@ categories: blog
 excerpt:
 tags: []
 image:
-  feature: images/skylake.png
+  path: /images/skylake.png
 date: 2016-12-23T16:26:25-05:00
 modified: 2016-12-23T16:26:25-05:00
 comments: true

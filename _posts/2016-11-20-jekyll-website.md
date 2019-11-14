@@ -8,7 +8,7 @@ excerpt: Greetings traveler, this post will show you how to create a beautiful s
     from Amazon Route 53.
 tags: []
 image:
-  feature:
+  path:
 date: 2016-11-20T17:24:23-05:00
 modified: 2016-11-20T17:24:23-05:00
 comments: true
