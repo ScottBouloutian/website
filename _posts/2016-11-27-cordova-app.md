@@ -6,7 +6,7 @@ categories: blog
 excerpt: The plan is to use Apache Cordova to build a hybrid mobile application using App.js framework to fake native app appearance and functionality.
 tags: []
 image:
-  feature:
+  path:
 date: 2016-11-27T14:22:41-05:00
 modified: 2016-11-27T14:22:41-05:00
 comments: true
