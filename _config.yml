@@ -19,7 +19,7 @@ title: "Scott Bouloutian"
 description: "Software Engineer · Hacker · Entrepreneur"
 baseurl: "/"
 url: "https://scottbouloutian.com"
-logo: "/images/site-logo.png" # path of site logo, e.g. "/assets/images/logo.png"
+logo: "/images/site-logo.png"
 date_format: "%B %-d, %Y"
 read_time: true
 words_per_minute: 200
@@ -29,7 +29,7 @@ google_fonts:
     weights: "400,400i,700,700i"
   - name: "Lora"
     weights: "400,400i,700,700i"
-google_analytics: # Google Analytics id, e.g. "UA-NNNNNNNN-N"
+google_analytics: "UA-111142375-1"
 disqus:
   shortname: scottbouloutian
 twitter:
