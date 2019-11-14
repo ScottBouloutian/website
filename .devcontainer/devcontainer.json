@@ -8,5 +8,6 @@
     "postCreateCommand": "bundle install",
     "extensions": [
         "dbaeumer.vscode-eslint"
-    ]
+    ],
+    "runArgs": ["-v", "${env:HOME}/.ssh:/root/.ssh"]
 }
