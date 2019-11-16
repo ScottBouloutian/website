@@ -55,18 +55,7 @@ search_full_content: false
 category_archive_path: "/categories/#"
 tag_archive_path: "/tags/#"
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
+# Jekyll plugins
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
@@ -104,3 +93,7 @@ footer_links:
   - title: Feed
     url: atom.xml
     icon: fas fa-rss-square
+
+# Head scripts
+head_scripts:
+  - /assets/js/adsense.js
