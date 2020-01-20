@@ -13,7 +13,7 @@ $text-color: #000 !default;
 $accent-color: #34374C !default;
 $nav-color: #fff !default;
 $background-color: #fff !default;
-$nav-background-color: #00b894 !default;
+$nav-background-color: #0984e3 !default;
 $code-background-color: tint($base-color, 95%) !default;
 $border-color: tint($base-color, 80%) !default;
 
@@ -40,5 +40,13 @@ $base0c: #2aa198 !default;
 $base0d: #268bd2 !default;
 $base0e: #6c71c4 !default;
 $base0f: #d33682 !default;
+
+h3.entry-title {
+  color: $nav-background-color;
+
+  a:hover {
+    color: #74b9ff;
+  }
+}
 
 @import "so-simple/skin";
