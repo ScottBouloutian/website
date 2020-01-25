@@ -11,7 +11,7 @@
 remote_theme: "mmistakes/so-simple-theme@3.2.0"
 locale: en-US
 title: "Scott Bouloutian"
-description: "Software Engineer · Hacker · Entrepreneur"
+description: "Developer · Hacker · Engineer"
 baseurl: "/"
 url: "https://scottbouloutian.com"
 logo: "/images/site-logo.png"
