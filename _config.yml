@@ -14,7 +14,7 @@ title: "Scott Bouloutian"
 description: "Developer · Hacker · Engineer"
 baseurl: "/"
 url: "https://scottbouloutian.com"
-logo: "/images/site-logo.png"
+logo: "/images/site-logo.jpg"
 skin: "/assets/css/skins/default.css"
 date_format: "%B %-d, %Y"
 read_time: true
