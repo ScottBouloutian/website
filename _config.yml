@@ -7,89 +7,28 @@
 #
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
 
-remote_theme: "mmistakes/so-simple-theme@3.2.0"
-locale: en-US
-title: "Scott Bouloutian"
-description: "Developer · Hacker · Engineer"
-baseurl: "/"
-url: "https://scottbouloutian.com"
-logo: "/images/site-logo.jpg"
-skin: "/assets/css/skins/default.css"
-date_format: "%B %-d, %Y"
-read_time: true
-words_per_minute: 200
-mathjax: true
-google_fonts:
-  - name: "Source Sans Pro"
-    weights: "400,400i,700,700i"
-  - name: "Lora"
-    weights: "400,400i,700,700i"
-google_analytics: "UA-111142375-1"
-disqus:
-  shortname: scottbouloutian
-twitter:
-  username: ScottBouloutian
-
-# Liquid
-liquid:
-  error_mode: strict
+title: Scott Bouloutian
+email: ScottBouloutian@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  High-quality models printed using low force stereolithography
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://scottbouloutian.com" # the base hostname & protocol for your site, e.g. http://example.com
+minimal_mistakes_skin: "mint"
+locale: "en-US"
 
 # Build settings
-markdown: kramdown
-feed:
-  path: atom.xml
-
-# Pagination - https://jekyllrb.com/docs/pagination/
-paginate: 10
-paginate_path: /page:num/
-
-# Search
-search_full_content: false
-
-# Taxonomy pages
-category_archive_path: "/categories/#"
-tag_archive_path: "/tags/#"
-
-# Jekyll plugins
+theme: minimal-mistakes-jekyll
 plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
   - jekyll-feed
-  - jekyll-paginate
-
-# Site Author
-author:
-  name: Scott Bouloutian
-  picture: /images/bio-photo.jpg
-  email:
-  twitter: ScottBouloutian
-  links:
-    - title: Twitter
-      url: https://twitter.com/ScottBouloutian
-      icon: fab fa-twitter-square
-    - title: Instagram
-      url: https://instagram.com/ScottBouloutian
-      icon: fab fa-instagram
-    - title: GitHub
-      url: https://github.com/ScottBouloutian
-      icon: fab fa-github-square
-
-# Footer Links
-footer_links:
-  - title: Twitter
-    url: https://twitter.com/ScottBouloutian
-    icon: fab fa-twitter-square
-  - title: Instagram
-    url: https://instagram.com/ScottBouloutian
-    icon: fab fa-instagram
-  - title: GitHub
-    url: https://github.com/ScottBouloutian
-    icon: fab fa-github-square
-  - title: Feed
-    url: atom.xml
-    icon: fas fa-rss-square
-
-# Head scripts
-head_scripts:
-  - /assets/js/adsense.js
+  - jekyll-include-cache
