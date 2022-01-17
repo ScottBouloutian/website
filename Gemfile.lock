@@ -110,6 +110,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 4.2.1)
   jekyll-feed (~> 0.12)
+  jekyll-include-cache (~> 0.2.1)
   minimal-mistakes-jekyll (~> 4.24.0)
   tzinfo (~> 1.2)
   tzinfo-data
