@@ -26,6 +26,13 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://scottbouloutian.com" # the base hostname & protocol for your site, e.g. http://example.com
 minimal_mistakes_skin: "mint"
 locale: "en-US"
+repository: "Scott-Software/website"
+
+# Google Analytics
+analytics:
+  provider: "google"
+  google:
+    tracking_id: "UA-111142375-1"
 
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
